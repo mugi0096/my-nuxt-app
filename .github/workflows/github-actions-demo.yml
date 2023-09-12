@@ -16,5 +16,9 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          version: latest
       - name: Install dependency
         run: bun install
