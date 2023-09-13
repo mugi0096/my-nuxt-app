@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    Add Github Actions
   </div>
 </template>
